@@ -1,24 +1,24 @@
 import React from 'react';
-import EjeDos from './components/E2/EjeDos';
-import EjeDosV1 from './components/E2/EjeDosV1';
+// Ejercicio 1
+import EjeUno from './components/E1/EjeUno';
+import EjeUnoV1 from './components/E1/EjeUnoV1';
+import EjeUnoV2 from './components/E1/EjeUnoV2';
 
-import EjeDosV2 from './components/E2/EjeDosV2';
+// Ejercicio 2
+import EjercicioDos from './components/E2/';
+
 
 
 
 import './App.css';
-// import ejercicioDosV1 from './components/E2/ejercicioDosV1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <EjeDos />
-        <EjeDosV1 />
-
-        <EjeDosV2 />
-      </header>
-    </div>
+    // <EjeUno />
+    // <EjeUnoV1 />
+    // <EjeUnoV2 />
+    <EjercicioDos / >
+      
   );
 }
 
