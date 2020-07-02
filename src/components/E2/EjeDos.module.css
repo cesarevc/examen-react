@@ -1,0 +1,10 @@
+.btn_clss {
+    margin: 4;
+    background-color: "black";
+    color: "white";
+    padding: 8;
+    border-radius: 8;
+    text-transform: "uppercase";
+    padding-left: 32;
+    padding-right: 32
+}

@@ -1,23 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import EjeDos from './components/E2/EjeDos';
+import EjeDosV1 from './components/E2/EjeDosV1';
+
+import EjeDosV2 from './components/E2/EjeDosV2';
+
+
+
 import './App.css';
+// import ejercicioDosV1 from './components/E2/ejercicioDosV1';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <EjeDos /> */}
+        <EjeDosV1 />
+
+        {/* <EjeDosV2 /> */}
       </header>
     </div>
   );
