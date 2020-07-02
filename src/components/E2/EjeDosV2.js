@@ -13,7 +13,7 @@ function EjeDosV2 () {
             <button onClick={() => setCount(0)} className={styles.buttonModified}>Reset</button>
 
 
-            <div style={{background: count%3 === 0 ? 'red' : count%3 === 1 ? 'green' : count%3 === 2 ? 'blue' : 'white'} }>
+            <div style={{background: count%3 === 0 ? 'red' : count%3 === 1 || count%3 === -1? 'green' : count%3 === 2 || count%3 === -2 ? 'blue' : 'white'} }>
                 <h1>{count}</h1>
 
             </div>
