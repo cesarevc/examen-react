@@ -16,7 +16,7 @@ function App() {
         {/* <EjeDos /> */}
         <EjeDosV1 />
 
-        {/* <EjeDosV2 /> */}
+        <EjeDosV2 />
       </header>
     </div>
   );

@@ -63,7 +63,10 @@ function EjeDosV2 () {
             >Reset</button>
 
 
-            <h1>{count}</h1>
+            <div style={{background: count%3 === 0 ? 'red' : count%3 === 1 ? 'green' : count%3 === 2 ? 'blue' : 'white'} }>
+                <h1>{count}</h1>
+
+            </div>
         </div>
     );
 }
