@@ -1,10 +1,10 @@
-.btn_clss {
-    margin: 4;
-    background-color: "black";
-    color: "white";
+.buttonModified {
+    background-color: black;
+    margin: 4px;
+    color: white;
     padding: 8;
     border-radius: 8;
-    text-transform: "uppercase";
+    text-transform: uppercase;
     padding-left: 32;
     padding-right: 32
 }
