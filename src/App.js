@@ -16,8 +16,8 @@ function App() {
   return (
     // <EjeUno />
     // <EjeUnoV1 />
-    // <EjeUnoV2 />
-    <EjercicioDos / >
+    <EjeUnoV2 />
+    // <EjercicioDos / >
       
   );
 }
